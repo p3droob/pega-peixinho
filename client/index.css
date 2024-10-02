@@ -1,0 +1,82 @@
+body {
+  background-image: url('https://i.imgur.com/oYcNPlR.png');
+  background-size: cover; /* Para ajustar a imagem ao tamanho da janela do navegador */
+  background-repeat: no-repeat; /* Para evitar a repetição da imagem */
+  color: #fff;
+}
+
+h1.title {
+  color: white;
+  margin-left: 1em;
+  width: 20em;
+  height: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #166464;
+  border-radius: 50px;
+}
+
+.status {
+  margin-top: 20px;
+  margin-left: 2em;
+  font-size: 30px;
+  color: black;
+  width: 20em;
+  height: 10em;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #48D1CC;
+  border-radius: 50px;
+}
+#game{
+  /*position: relative;
+  margin-top: 2em;
+  padding: 2em;
+  font-size: 40px;
+  background-color: #fff;*/
+  margin-top: 2em;
+  margin-left: 2em;
+  font-size: 30px;
+  color: black;
+  width: 15em;
+  height: 5em;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #48D1CC;
+  border-radius: 50px;
+}
+button#capturar {
+  margin-left: 2em;
+  font-size: 60px;
+  position: relative;
+  border-radius: 2em;
+  background-image: url('https://i.imgur.com/SoGkpu3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 160px;
+  overflow: hidden;
+  height: 160px; 
+  color: black;
+  border-size: 4px;
+}
+button#capturar:hover {
+  opacity: 10;
+}
+
+div.coisas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 100px;
+  justify-content: space-between;
+  row-gap: 3%;
+  column-gap: 3%;
+  gap: 10px;
+  
+}
